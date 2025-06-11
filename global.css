@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #4CAF50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.token-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.check-button {
+  padding: 12px 20px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.check-button:hover {
+  background-color: #45a049;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+footer .footer-text {
+  color: #888;
+}
+
+footer .tufan-name {
+  font-weight: bold;
+  color: #4CAF50;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
